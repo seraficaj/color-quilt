@@ -1,5 +1,5 @@
 body {
-    background-color: chartreuse;
+    background-color:gainsboro;
 }
 
 .square {
@@ -8,4 +8,5 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     display: inline-block;
+    background-color: rgb(18, 241, 211);
 }
