@@ -27,6 +27,7 @@ const generateQuilt = (numOfSquares) => {
         square.classList.add("square");
         // add a randomly generated color
         square.style.backgroundColor = randColorRGB();
+        square.innerText = i;
         // append it to the page
         document.querySelector("body").appendChild(square);
     }
